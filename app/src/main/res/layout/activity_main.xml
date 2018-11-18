@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/et_input"
+        android:enabled="false"
+        android:gravity="bottom|right"/><!--gravity，文字在控件中的对齐方式
+        layout_gravity,控件在布局中对齐方式-->
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="清空"
+            android:textSize="20sp"
+            android:id="@+id/btn_clear"
+           />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="删除"
+            android:textSize="20sp"
+            android:id="@+id/btn_del"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="/"
+            android:textSize="20sp"
+            android:id="@+id/btn_divide"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="*"
+            android:textSize="20sp"
+            android:id="@+id/btn_multiply"
+            />
+
+
+    </LinearLayout>
+    //第二行开始*******************************
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+       >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="7"
+            android:textSize="20sp"
+            android:id="@+id/btn_7"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="8"
+            android:textSize="20sp"
+
+            android:id="@+id/btn_8"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="9"
+            android:textSize="20sp"
+            android:id="@+id/btn_9"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="-"
+            android:textSize="20sp"
+            android:id="@+id/btn_minus"
+            />
+
+
+    </LinearLayout>
+    //第三行开始********************************
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="4"
+            android:textSize="20sp"
+            android:id="@+id/btn_4"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="5"
+            android:textSize="20sp"
+            android:id="@+id/btn_5"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="6"
+            android:textSize="20sp"
+            android:id="@+id/btn_6"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="+"
+            android:textSize="20sp"
+            android:id="@+id/btn_plus"
+            />
+
+
+    </LinearLayout>
+    //第四行***************************************************************
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:id="@+id/btn_1"
+             />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="2"
+            android:textSize="20sp"
+            android:id="@+id/btn_2"
+           />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="3"
+            android:textSize="20sp"
+            android:id="@+id/btn_3"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="0"
+            android:textSize="20sp"
+            android:id="@+id/btn_0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="74dp"
+            android:text="."
+            android:textSize="20sp"
+            android:id="@+id/btn_point"
+            />
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="74dp"
+            android:text="="
+            android:textSize="20sp"
+            android:id="@+id/btn_equal"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
